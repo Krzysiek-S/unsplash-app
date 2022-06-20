@@ -1,0 +1,73 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.itemGallery {
+    width: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all .5s ease;
+  }
+
+.itemGallery:hover {
+  -moz-box-shadow: 0 0 10px rgb(119, 119, 119);
+  -webkit-box-shadow: 0 0 10px rgb(119, 119, 119);
+  box-shadow: 0px 5px 5px rgb(119, 119, 119);
+}
+
+.searchContainer {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+input {
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    padding-left: 8px;
+    margin: 0 0 20px 0;
+    /* padding: 0 0 2px 8px; */
+    width: 50%;
+    height: 25px;
+    border-color: rgb(168, 168, 168);
+    border-width: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+input:focus {
+    outline: none;
+    padding: 0 0 2px 8px;
+    border-left: 1px solid rgb(158, 158, 158);
+    border-bottom: none;
+  }
+
+.inputButton {
+    height: 28px;
+    width: 60px;
+    background: white;
+    border-color: rgb(168, 168, 168);
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+    cursor: pointer;
+  }
+
+.inputButton:hover {
+  color: rgb(92, 157, 218);
+  }
+
+.gallery p {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+.photosDescription {
+  display: flex;
+  justify-content: space-around;
+}
